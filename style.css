@@ -1,0 +1,15 @@
+img{
+    height: 75px;
+}
+p{
+    margin: 20px 20px 2px 20px;
+}
+.logo{
+    border-style: solid;
+    border-color: lightcoral;
+    border-width: 10px;
+}
+body{
+    background-color: lightcoral;
+    display: flex;
+}
