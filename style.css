@@ -20,6 +20,9 @@ body{
     background: lightcoral url(Assets/Bus_Fabric.jpg);
     background-size: 13%;
 }
+main{
+    align-content: center;
+}
 header{
     display: flex;
     justify-content: space-between;
