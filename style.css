@@ -28,7 +28,7 @@ header{
 ul{
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 li{
     padding: 10px;
@@ -40,8 +40,12 @@ li{
     border-width: 5px;
     border-radius: 5px;
     background-color: lightcoral;
+    min-height: calc(100vh - 16px);
 }
 footer{
-    margin: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    bottom: 0px;
 }
