@@ -43,6 +43,8 @@ li{
     min-height: calc(100vh - 16px);
 }
 footer{
+    position: sticky;
+    bottom: 0;
     margin: auto;
     text-align: center;
     max-width: 30%;
