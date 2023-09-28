@@ -43,9 +43,7 @@ li{
     min-height: calc(100vh - 16px);
 }
 footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: auto;
     text-align: center;
-    bottom: 0px;
+    max-width: 30%;
 }
