@@ -1,6 +1,12 @@
 img{
     height: 75px;
 }
+audio{
+    border-width: 10px;
+    border-color: lightcoral;
+    border-style: solid;
+    width: 100%;
+}
 p{
     margin: 20px 20px 2px 20px;
 }
@@ -8,8 +14,34 @@ p{
     border-style: solid;
     border-color: lightcoral;
     border-width: 10px;
+    border-radius: 5px;
 }
 body{
-    background-color: lightcoral;
+    background: lightcoral url(Assets/Bus_Fabric.jpg);
+    background-size: 13%;
+}
+header{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+li{
+    padding: 10px;
+}
+.main{
+    margin: auto;
+    max-width: 75%;
+    border-color: lightcoral;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: lightcoral;
+}
+footer{
+    margin: 0px 20px 20px 20px;
+    text-align: center;
 }
