@@ -1,5 +1,5 @@
 @font-face{
-    font-family: MyFont;
+    font-family: Myfont;
     src: url(../about_lab/Assets/Myfont-Regular.otf);
 }
 img{
@@ -44,11 +44,11 @@ ul{
 }
 li{
     padding: 10px;
-    font-family: MyFont;
+    font-family: Myfont;
     font-size: 30px;
 }
 .main{
-    font-family: MyFont;
+    font-family: Myfont;
     font-size: 27px;
     margin: auto;
     max-width: 75%;
