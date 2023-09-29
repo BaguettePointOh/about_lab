@@ -26,6 +26,11 @@ body{
 }
 p{
     text-align: center;
+    font-weight: 500;
+    text-wrap: wrap;
+}
+.intro{
+    font-weight: 600;
 }
 h2{
     text-align: center;
@@ -56,6 +61,14 @@ li{
     border-radius: 5px;
     background-color: lightcoral;
     min-height: calc(100vh - 16px);
+}
+.Portfolio{
+    display: flex;
+    justify-content: center
+}
+.Portfolio img{
+    padding: 10px;
+    height: 20vh;
 }
 footer{
     font-size: 20px;
