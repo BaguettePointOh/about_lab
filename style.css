@@ -1,6 +1,6 @@
 @font-face {
     font-family: MyFont;
-    src: url("assets/MyFont-Regular.otf");
+    src: url(assets/MyFont-Regular.otf);
 }
 img{
     height: 75px;
